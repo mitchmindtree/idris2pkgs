@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "nix-idris2-packages": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1726882608,
+        "narHash": "sha256-q/3WGB193pCmxJElLyQ0r+FqsRfXGbTL7aaXYtRkVRk=",
+        "owner": "mattpolzin",
+        "repo": "nix-idris2-packages",
+        "rev": "a81c1bd206a8f5597f9d3ea2ed8d0a91e3653c01",
+        "type": "github"
+      },
+      "original": {
+        "owner": "mattpolzin",
+        "repo": "nix-idris2-packages",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1726755586,
+        "narHash": "sha256-PmUr/2GQGvFTIJ6/Tvsins7Q43KTMvMFhvG6oaYK+Wk=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "c04d5652cfa9742b1d519688f65d1bbccea9eb7e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nix-idris2-packages": "nix-idris2-packages",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
